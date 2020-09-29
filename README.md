@@ -41,6 +41,7 @@ void loop() {
    delay(80);
 
    }
+   圖：![image](https://github.com/EN-PEN/RGB/blob/master/IMG20200929132851.jpg)
    
 
   
