@@ -2,27 +2,27 @@
 int A=0;
 void setup() {
   // put your setup code here, to run once:
-  for(int i =9 ;i<12;i++)
-  pinMode(i,OUTPUT);
+  for(int i =9 ;i<12;i++)(設定輸出9~12)
+  pinMode(i,OUTPUT);(輸出位 = 9)
 }
 
 void loop() {
- analogWrite(9,45);
- analogWrite(10,90);
- analogWrite(11,90);
+ analogWrite(9,45);(設定數值RGB_B)
+ analogWrite(10,90);(設定數值RGB_G)
+ analogWrite(11,90);(設定數值RGB_R)
 }
 
 
 題目二:呼吸燈
-int x =120;
+int x =120;(設定最大值)
 
-int y =10;
+int y =10;(設定層遞值)
 
 void setup() {
 
   // put your setup code here, to run once:
 
-  pinMode (10,OUTPUT);
+  pinMode (10,OUTPUT);(設定輸出腳為10)
 
 }
 
