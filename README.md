@@ -1,4 +1,5 @@
 實作：
+```C++
 int A=0;
 void setup() {
   // put your setup code here, to run once:
@@ -11,9 +12,10 @@ void loop() {
  analogWrite(10,90);(設定數值RGB_G)
  analogWrite(11,90);(設定數值RGB_R)
 }
-
+```
 
 題目二:呼吸燈
+```C++
 int x =120;(設定最大值)
 
 int y =10;(設定層遞值)
@@ -41,6 +43,7 @@ void loop() {
    delay(80);
 
    }
+   ```
    圖：![image](https://github.com/EN-PEN/RGB/blob/master/IMG20200929132851.jpg)
    
 
